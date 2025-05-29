@@ -1,0 +1,443 @@
+[
+  {
+    "nric": "020529-13-1195",
+    "name": "Ahmad Faizal",
+    "gender": "Lelaki",
+    "class": "4 Bestari",
+    "school": "SMK Seri Damai"
+  },
+  {
+    "nric": "050701-02-4820",
+    "name": "Nur Aisyah",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Bukit Indah"
+  },
+  {
+    "nric": "031219-07-7531",
+    "name": "Lim Wei Jie",
+    "gender": "Lelaki",
+    "class": "3 Cemerlang",
+    "school": "SMK Bukit Tinggi"
+  },
+  {
+    "nric": "040504-11-2108",
+    "name": "Siti Nurhaliza",
+    "gender": "Perempuan",
+    "class": "4 Bestari",
+    "school": "SMK Taman Maju"
+  },
+  {
+    "nric": "010822-10-6255",
+    "name": "Mohd Hafiz",
+    "gender": "Lelaki",
+    "class": "5 Amanah",
+    "school": "SMK Damai Jaya"
+  },
+  {
+    "nric": "021123-01-8462",
+    "name": "Tan Mei Ling",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Seri Jaya"
+  },
+  {
+    "nric": "050814-06-2159",
+    "name": "Arif Daniel",
+    "gender": "Lelaki",
+    "class": "4 Bestari",
+    "school": "SMK Seri Setia"
+  },
+  {
+    "nric": "060302-12-4874",
+    "name": "Zulaikha Amani",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Sejahtera"
+  },
+  {
+    "nric": "041110-09-9377",
+    "name": "Ng Kok Wei",
+    "gender": "Lelaki",
+    "class": "3 Cemerlang",
+    "school": "SMK Damansara Utama"
+  },
+  {
+    "nric": "050719-04-2640",
+    "name": "Alya Natasha",
+    "gender": "Perempuan",
+    "class": "4 Bestari",
+    "school": "SMK Bukit Indah"
+  },
+  {
+    "nric": "021125-13-8835",
+    "name": "Irfan Hakim",
+    "gender": "Lelaki",
+    "class": "3 Cemerlang",
+    "school": "SMK Taman Sri Murni"
+  },
+  {
+    "nric": "030902-05-7048",
+    "name": "Fatin Hanani",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Seri Setia"
+  },
+  {
+    "nric": "060415-07-1751",
+    "name": "Chong Wei Ling",
+    "gender": "Perempuan",
+    "class": "4 Bestari",
+    "school": "SMK Seri Damai"
+  },
+  {
+    "nric": "041208-14-2646",
+    "name": "Ahmad Ridhwan",
+    "gender": "Lelaki",
+    "class": "3 Cemerlang",
+    "school": "SMK Bukit Tinggi"
+  },
+  {
+    "nric": "020607-01-4381",
+    "name": "Nurul Izzah",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Damai Jaya"
+  },
+  {
+    "nric": "031221-09-7054",
+    "name": "Lim Kai Sheng",
+    "gender": "Lelaki",
+    "class": "4 Bestari",
+    "school": "SMK Seri Jaya"
+  },
+  {
+    "nric": "050815-02-9703",
+    "name": "Saraswathi a/p Rajan",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Damansara Utama"
+  },
+  {
+    "nric": "061130-10-2836",
+    "name": "Zulkifli",
+    "gender": "Lelaki",
+    "class": "5 Amanah",
+    "school": "SMK Taman Maju"
+  },
+  {
+    "nric": "021117-13-4719",
+    "name": "Intan Suraya",
+    "gender": "Perempuan",
+    "class": "4 Bestari",
+    "school": "SMK Seri Damai"
+  },
+  {
+    "nric": "041019-06-8502",
+    "name": "Foo Mei Ling",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Bukit Tinggi"
+  },
+  {
+    "nric": "030823-01-1539",
+    "name": "Ahmad Zaki",
+    "gender": "Lelaki",
+    "class": "5 Amanah",
+    "school": "SMK Damai Jaya"
+  },
+  {
+    "nric": "041005-10-6248",
+    "name": "Nor Hidayah",
+    "gender": "Perempuan",
+    "class": "4 Bestari",
+    "school": "SMK Seri Jaya"
+  },
+  {
+    "nric": "050317-04-3915",
+    "name": "Goh Wei Xian",
+    "gender": "Lelaki",
+    "class": "3 Cemerlang",
+    "school": "SMK Seri Setia"
+  },
+  {
+    "nric": "060726-12-4782",
+    "name": "Farah Nabila",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Sejahtera"
+  },
+  {
+    "nric": "021210-09-9275",
+    "name": "Shah Rizal",
+    "gender": "Lelaki",
+    "class": "4 Bestari",
+    "school": "SMK Bukit Indah"
+  },
+  {
+    "nric": "030409-07-5848",
+    "name": "Siti Sarah",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Taman Sri Murni"
+  },
+  {
+    "nric": "050703-14-2313",
+    "name": "Lim Siew Ling",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Seri Setia"
+  },
+  {
+    "nric": "060611-11-6876",
+    "name": "Muhammad Danish",
+    "gender": "Lelaki",
+    "class": "4 Bestari",
+    "school": "SMK Seri Damai"
+  },
+  {
+    "nric": "020520-13-3049",
+    "name": "Noraida",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Bukit Tinggi"
+  },
+  {
+    "nric": "041108-05-6752",
+    "name": "Tan Chun Wei",
+    "gender": "Lelaki",
+    "class": "5 Amanah",
+    "school": "SMK Damai Jaya"
+  },
+  {
+    "nric": "051212-01-3485",
+    "name": "Siti Aina",
+    "gender": "Perempuan",
+    "class": "4 Bestari",
+    "school": "SMK Seri Jaya"
+  },
+  {
+    "nric": "030914-07-6826",
+    "name": "Rajesh Kumar",
+    "gender": "Lelaki",
+    "class": "3 Cemerlang",
+    "school": "SMK Damansara Utama"
+  },
+  {
+    "nric": "061227-10-9593",
+    "name": "Nur Farhah",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Taman Maju"
+  },
+  {
+    "nric": "021111-13-2140",
+    "name": "Mohd Fikri",
+    "gender": "Lelaki",
+    "class": "4 Bestari",
+    "school": "SMK Seri Damai"
+  },
+  {
+    "nric": "041022-06-7625",
+    "name": "Lim Li Na",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Bukit Tinggi"
+  },
+  {
+    "nric": "030815-01-1014",
+    "name": "Ahmad Nasir",
+    "gender": "Lelaki",
+    "class": "5 Amanah",
+    "school": "SMK Damai Jaya"
+  },
+  {
+    "nric": "050928-10-8437",
+    "name": "Siti Aisyah",
+    "gender": "Perempuan",
+    "class": "4 Bestari",
+    "school": "SMK Seri Jaya"
+  },
+  {
+    "nric": "061204-04-2580",
+    "name": "Wong Chun Hao",
+    "gender": "Lelaki",
+    "class": "3 Cemerlang",
+    "school": "SMK Seri Setia"
+  },
+  {
+    "nric": "020613-12-6859",
+    "name": "Faridah",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Sejahtera"
+  },
+  {
+    "nric": "041107-09-4922",
+    "name": "Azlan",
+    "gender": "Lelaki",
+    "class": "4 Bestari",
+    "school": "SMK Bukit Indah"
+  },
+  {
+    "nric": "030826-07-9237",
+    "name": "Sharifah Nur",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Taman Sri Murni"
+  },
+  {
+    "nric": "051105-14-6748",
+    "name": "Tan Wei Ling",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Seri Setia"
+  },
+  {
+    "nric": "061029-11-2033",
+    "name": "Mohd Azman",
+    "gender": "Lelaki",
+    "class": "4 Bestari",
+    "school": "SMK Seri Damai"
+  },
+  {
+    "nric": "020426-13-7836",
+    "name": "Siti Mariam",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Bukit Tinggi"
+  },
+  {
+    "nric": "041220-05-1499",
+    "name": "Goh Chee Wei",
+    "gender": "Lelaki",
+    "class": "5 Amanah",
+    "school": "SMK Damai Jaya"
+  },
+  {
+    "nric": "051001-01-2406",
+    "name": "Nur Aina",
+    "gender": "Perempuan",
+    "class": "4 Bestari",
+    "school": "SMK Seri Jaya"
+  },
+  {
+    "nric": "031113-07-3843",
+    "name": "Kumar a/l Raj",
+    "gender": "Lelaki",
+    "class": "3 Cemerlang",
+    "school": "SMK Damansara Utama"
+  },
+  {
+    "nric": "061218-10-9624",
+    "name": "Aminah",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Taman Maju"
+  },
+  {
+    "nric": "021201-13-4751",
+    "name": "Ahmad Imran",
+    "gender": "Lelaki",
+    "class": "4 Bestari",
+    "school": "SMK Seri Damai"
+  },
+  {
+    "nric": "041030-06-8360",
+    "name": "Tan Siew Mei",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Bukit Tinggi"
+  },
+  {
+    "nric": "030727-01-1065",
+    "name": "Ismail",
+    "gender": "Lelaki",
+    "class": "5 Amanah",
+    "school": "SMK Damai Jaya"
+  },
+  {
+    "nric": "050929-10-8498",
+    "name": "Farah",
+    "gender": "Perempuan",
+    "class": "4 Bestari",
+    "school": "SMK Seri Jaya"
+  },
+  {
+    "nric": "061205-04-2527",
+    "name": "Lee Wei Ling",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Seri Setia"
+  },
+  {
+    "nric": "020614-12-6880",
+    "name": "Mohd Azri",
+    "gender": "Lelaki",
+    "class": "5 Amanah",
+    "school": "SMK Sejahtera"
+  },
+  {
+    "nric": "041108-09-4973",
+    "name": "Rahman",
+    "gender": "Lelaki",
+    "class": "4 Bestari",
+    "school": "SMK Bukit Indah"
+  },
+  {
+    "nric": "030827-07-9206",
+    "name": "Nadiah",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Taman Sri Murni"
+  },
+  {
+    "nric": "051104-14-6799",
+    "name": "Tan Mei Ling",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Seri Setia"
+  },
+  {
+    "nric": "061030-11-2044",
+    "name": "Shahril",
+    "gender": "Lelaki",
+    "class": "4 Bestari",
+    "school": "SMK Seri Damai"
+  },
+  {
+    "nric": "020427-13-7831",
+    "name": "Nora",
+    "gender": "Perempuan",
+    "class": "3 Cemerlang",
+    "school": "SMK Bukit Tinggi"
+  },
+  {
+    "nric": "041219-05-1494",
+    "name": "Goh Lee Wei",
+    "gender": "Lelaki",
+    "class": "5 Amanah",
+    "school": "SMK Damai Jaya"
+  },
+  {
+    "nric": "051002-01-2401",
+    "name": "Nurul Huda",
+    "gender": "Perempuan",
+    "class": "4 Bestari",
+    "school": "SMK Seri Jaya"
+  },
+  {
+    "nric": "031114-07-3848",
+    "name": "Kumar a/l Rajan",
+    "gender": "Lelaki",
+    "class": "3 Cemerlang",
+    "school": "SMK Damansara Utama"
+  },
+  {
+    "nric": "061219-10-9629",
+    "name": "Aminah",
+    "gender": "Perempuan",
+    "class": "5 Amanah",
+    "school": "SMK Taman Maju"
+  }
+]
