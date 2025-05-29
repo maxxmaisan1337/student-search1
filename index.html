@@ -1,23 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="ms">
 <head>
-  <title>Semak Nama Pelajar</title>
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Semak Nama Penuh</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 20px; max-width: 600px; margin: auto; }
-    input { padding: 8px; width: 80%; font-size: 1em; }
-    button { padding: 8px 16px; margin-left: 8px; font-size: 1em; cursor: pointer; }
-    .result { margin-top: 20px; font-size: 1.1em; }
-    .loading { color: blue; }
-    .not-found { color: red; }
-    .found { color: green; }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      color: #fff;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      border-radius: 15px;
+      padding: 30px 40px;
+      max-width: 480px;
+      width: 100%;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: 600;
+      margin-bottom: 10px;
+      letter-spacing: 1.2px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    }
+
+    p.intro {
+      font-weight: 400;
+      font-size: 1.3em;
+      margin-bottom: 30px;
+      line-height: 1.4;
+      text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+      font-style: italic;
+      letter-spacing: 0.05em;
+    }
+
+    input[type="text"] {
+      padding: 12px 16px;
+      width: 80%;
+      border-radius: 8px;
+      border: none;
+      font-size: 1em;
+      outline: none;
+      transition: box-shadow 0.3s ease;
+    }
+    input[type="text"]:focus {
+      box-shadow: 0 0 8px 2px #c8a2f5;
+      background: rgba(255,255,255,0.15);
+      color: #fff;
+    }
+
+    button {
+      padding: 12px 24px;
+      margin-left: 10px;
+      border: none;
+      border-radius: 8px;
+      background: #c8a2f5;
+      color: #4b0082;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      box-shadow: 0 4px 12px rgba(200, 162, 245, 0.5);
+    }
+    button:hover {
+      background: #a57de0;
+      color: #fff;
+      box-shadow: 0 6px 16px rgba(165, 125, 224, 0.8);
+    }
+
+    .result {
+      margin-top: 25px;
+      text-align: left;
+      font-size: 1.05em;
+      min-height: 80px;
+    }
+
+    .loading {
+      color: #ffeb3b;
+      font-weight: 600;
+      text-align: center;
+      animation: blink 1.2s infinite;
+    }
+
+    .not-found {
+      color: #ff6f61;
+      font-weight: 700;
+      text-align: center;
+      text-shadow: 0 0 6px #ff6f61;
+    }
+
+    .found {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1);
+      color: #e0d7f5;
+      line-height: 1.4;
+      letter-spacing: 0.02em;
+      transition: background 0.3s ease;
+    }
+    .found strong {
+      color: #d1bbf9;
+    }
+
+    @keyframes blink {
+      0%, 100% {opacity: 1;}
+      50% {opacity: 0.5;}
+    }
+
+    @media (max-width: 520px) {
+      input[type="text"] {
+        width: 100%;
+        margin-bottom: 12px;
+      }
+      button {
+        margin-left: 0;
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
-  <h2>Semak Nama Pelajar</h2>
-  <input type="text" id="nameInput" placeholder="Masukkan nama penuh pelajar" />
-  <button onclick="searchStudent()">Cari</button>
-  <div class="result" id="result"></div>
+  <div class="container">
+    <h1>Semak Nama Penuh</h1>
+    <p class="intro">
+      Bila Polis Senyap, Kami Gerak
+    </p>
+    <div>
+      <input type="text" id="nameInput" placeholder="Masukkan nama penuh pelajar..." aria-label="Nama pelajar" />
+      <button onclick="searchStudent()">Cari</button>
+    </div>
+    <div class="result" id="result"></div>
+  </div>
 
   <script>
     async function searchStudent() {
@@ -30,16 +157,16 @@
         return;
       }
 
-      // Show loading
-      resultDiv.innerHTML = '<span class="loading">Semak Nama Penuh...</span>';
+      // Show loading message
+      resultDiv.innerHTML = '<span class="loading">Semak Nama Penuh</span>';
 
       try {
         const res = await fetch('students.json');
-        if (!res.ok) throw new Error('Fail untuk dapatkan data pelajar.');
+        if (!res.ok) throw new Error('Gagal dapatkan data pelajar.');
 
         const data = await res.json();
 
-        // Search for partial match (name includes input)
+        // Partial matching on name
         const matched = data.filter(s => s.name.toLowerCase().includes(query));
 
         if (matched.length === 0) {
@@ -47,20 +174,20 @@
           return;
         }
 
-        // Display all matched students
+        // Show all matches
         let html = '';
         matched.forEach(student => {
           html += `
-            <div class="found">
-              <strong>Nama:</strong> ${student.name} <br>
-              <strong>Kad Pengenalan:</strong> ${student.nric} <br>
-              <strong>Jantina:</strong> ${student.gender} <br>
-              <strong>Kelas:</strong> ${student.class} <br>
+            <div class="found" tabindex="0">
+              <strong>Nama:</strong> ${student.name}<br />
+              <strong>Kad Pengenalan:</strong> ${student.nric}<br />
+              <strong>Jantina:</strong> ${student.gender}<br />
+              <strong>Kelas:</strong> ${student.class}<br />
               <strong>Sekolah:</strong> ${student.school}
-              <hr>
             </div>
           `;
         });
+
         resultDiv.innerHTML = html;
 
       } catch (err) {
@@ -68,8 +195,8 @@
       }
     }
 
-    // Optional: Enter key triggers search
-    document.getElementById('nameInput').addEventListener('keydown', function(e) {
+    // Press Enter to search
+    document.getElementById('nameInput').addEventListener('keydown', e => {
       if (e.key === 'Enter') searchStudent();
     });
   </script>
